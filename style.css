@@ -1,0 +1,204 @@
+body {
+    border: 8px solid rgb(23, 5, 213);
+    margin: 0;
+    font-family: sans-serif;
+}
+.div1 {
+   background: linear-gradient(to right, red,green,yellow);
+   text-align: center;
+   font-size: larger;
+   font-weight: bolder;
+   text-decoration: underline;
+   margin: 7px;
+}
+.menu {
+    width: 800px;
+    background-color: aqua;
+    padding: 6px;
+    margin: 15px auto;
+    border: 2px solid red;
+    border-radius: 15px;
+    font-weight: 600;
+}
+.menu li {
+    margin-left: 350px;
+}
+#main1 {
+     background-color: aquamarine;
+    border-radius: 15px;
+    border: 2px solid black;
+    margin: 30px 10px 0 10px;
+}
+.mainContant {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.card1 {
+    width: 350px;
+    background-color: aqua;
+    border: 2px solid green;
+    border-radius: 15px;
+    padding: 20px 20px 0 20px;
+    text-align: center;
+    font-weight: 600;
+}
+.card2 {
+    width: 350px;
+    background-color: aqua;
+    border: 2px solid green;
+    border-radius: 15px;
+    padding: 20px 20px 0 20px;
+    text-align: center;
+     font-weight: 600;
+}
+.card3 {
+    width: 350px;
+    background-color: aqua;
+    border: 2px solid green;
+    border-radius: 15px;
+    padding: 20px 20px 0 20px;
+    text-align: center;
+    margin-right: 220px;
+     font-weight: 600;
+    
+}
+ .card4 {
+    display: inline-block;
+    width: 350px;
+    background-color: aqua;
+    border: 2px solid green;
+    border-radius: 15px;
+    padding: 20px 20px 0 20px;
+    text-align: center;
+    margin: 10px 0 10px 450px;
+     font-weight: 600;
+} 
+.div2 {
+    background: linear-gradient(to right, red,yellow,red);
+   text-align: center;
+   font-size: larger;
+   font-weight: bolder;
+   text-decoration: underline;
+   margin: 20px 7px;
+}
+#mainContant1 {
+    background: radial-gradient(blue,cyan,green);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 30px 10px 0 10px;
+}
+.card5 {
+    width: 200px;
+    background-color: yellow;
+    border: 2px solid red;
+    border-radius: 15px;
+    color: red;
+    text-decoration: underline;
+    text-align: center;
+    /* margin: 40px 0; */
+}
+.card6 {
+    width: 200px;
+    background-color: yellow;
+    border: 2px solid red;
+    border-radius: 15px;
+    color: red;
+    text-decoration: underline;
+    text-align: center;
+}
+.card7 {
+    width: 200px;
+    background-color: yellow;
+    border: 2px solid red;
+    border-radius: 15px;
+    color: red;
+    text-decoration: underline;
+    text-align: center;
+}
+.card8 {
+    width: 200px;
+    background-color: yellow;
+    border: 2px solid red;
+    border-radius: 15px;
+    color: red;
+    text-decoration: underline;
+    text-align: center;
+    margin: 40px 0;
+}
+.div3 {
+    background: linear-gradient(to right, rgb(51, 0, 255),yellow,red);
+   text-align: center;
+   font-size: larger;
+   font-weight: bolder;
+  grid-column-start: 1;
+  grid-column-end: 5;
+   margin: 20px 0;
+}
+#mainContant2 {
+    display: grid;
+    border: 3px solid black;
+    margin: 30px 10px 10px 10px;
+   
+    width: 1250px;
+   height: auto;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 5px;
+    row-gap: 5px;
+}
+.box1 {
+    background-color: crimson;
+    width: 360px;
+    height: 70px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+.box2 {
+    background-color: rgb(16, 2, 127);
+    width: 360px;
+    height: 70px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+.box3 {
+    background-color: crimson;
+    width: 360px;
+    height: 70px;
+    /* text-align: center; */
+    font-size: 21px;
+    font-weight: bold;
+    color: white;
+}
+.box4 {
+    background-color: black;
+    width: 130px;
+    height: 185px;
+    text-decoration: underline;
+    color: white;
+    grid-column-start: 4;
+    grid-row: 2 / 8;
+}
+.box5 {
+    background-color: yellow;
+    height: 100px;
+    color: black;
+    grid-column: 1 / 4;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Times New Roman';
+}
+.div4 {
+    background: linear-gradient(to right, rgb(51, 0, 255),rgb(30, 255, 0),rgb(6, 149, 178));
+   text-align: center;
+   font-size: larger;
+   font-weight: bolder;
+  grid-column-start: 1;
+  grid-column-end: 5;
+  margin-bottom: 20px;
+}
